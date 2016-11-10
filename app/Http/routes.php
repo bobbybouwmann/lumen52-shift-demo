@@ -29,5 +29,4 @@ $app->group(['prefix' => 'api/v1', 'middleware' => 'auth'], function ($app) {
     $app->post('books', 'App\Http\Controllers\BooksController@store');
     $app->patch('books/{id}', 'App\Http\Controllers\BooksController@update');
     $app->delete('books/{id}', 'App\Http\Controllers\BooksController@destroy');
-
 });

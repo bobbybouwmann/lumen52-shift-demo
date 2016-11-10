@@ -6,7 +6,7 @@ use Illuminate\Support\Collection;
 
 abstract class Transformer
 {
-    public abstract function transform($item);
+    abstract public function transform($item);
 
     public function transformCollection(Collection $items)
     {
