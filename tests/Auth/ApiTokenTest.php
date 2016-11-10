@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Foundation\Testing\DatabaseTransactions;
+use Laravel\Lumen\Testing\DatabaseTransactions;
 
 class ApiTokenTest extends TestCase
 {
